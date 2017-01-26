@@ -24,7 +24,24 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
+<div class="header">
+	<div class="top-wrap"></div>
+	<div class="menu-wrap">
+		<div class="company-wrap">
+			<div class="logo-wrap"></div>
+			<div class="company-name"></div>
+			<div class="magratea"></div>
+		</div>
+		<div class="menu-block">
+			
+		</div>
+	</div>
+</div>
 
+
+<footer>
+	
+</footer>
 <?php $this->endBody() ?>
 </body>
 </html>
