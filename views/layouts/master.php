@@ -25,22 +25,79 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 <div class="header">
-	<div class="top-wrap"></div>
-	<div class="menu-wrap">
-		<div class="company-wrap">
-			<div class="logo-wrap"></div>
-			<div class="company-name"></div>
-			<div class="magratea"></div>
+	<div class="top-wrap">
+		<div class="container">
+			<div class="user">
+				Вы вошли как: <a href="#" class="username">Говорилкина Н.А.</a>
+			</div>
 		</div>
-		<div class="menu-block">
-			
+	</div>
+	<div class="menu-wrap">
+		<div class="container">
+			<div class="company-wrap">
+				<div class="logo-wrap">
+					<img src="img/owl_logo.png" alt="">
+				</div>
+				<div class="about-company">
+					<div class="company-name">
+						Говорящие уроки
+					</div>
+					<div class="magratea">
+						Интерактивная среда<br />для логопедической работы
+					</div>
+				</div>
+			</div>
+			<ul class="menu-block">
+				<li class="menu-item"><a href="#">ГЛАВНАЯ</a></li>
+				<li class="menu-item"><a href="#">О ПРОЕКТЕ</a></li>
+				<li class="menu-item"><a href="#">НАЧАТЬ РАБОТУ</a></li>
+				<li class="menu-item"><a href="#">ФОРУМ</a></li>
+				<li class="menu-item"><a href="#">О КОМПАНИИ</a></li>
+			</ul>
 		</div>
 	</div>
 </div>
 
 
 <footer>
-	
+	<div class="container">
+		<div class="block">
+			<div class="icon">
+				<img src="img/phone.png" alt="">
+			</div>
+			<div class="block-caption">
+				<div class="header">Звоните нам</div>
+				Tел.: +7 (913) 534 21 74
+			</div>
+		</div>
+		<div class="block">
+			<div class="icon">
+				<img src="img/email.png" alt="">
+			</div>
+			<div class="block-caption">
+				<div class="header">Пишите нам</div>
+				Tел.: +7 (913) 534 21 74
+			</div>
+		</div>
+		<div class="block">
+			<div class="icon">
+				<img src="img/step.png" alt="">
+			</div>
+			<div class="block-caption">
+				<div class="header">Мы в соц. сетях</div>
+				Tел.: +7 (913) 534 21 74
+			</div>
+		</div>
+		<div class="block">
+			<div class="icon">
+				<img src="img/copyright.png" alt="">
+			</div>
+			<div class="block-caption">
+				<div class="header">&copy;Говорящие уроки</div><br />
+				Tел.: +7 (913) 534 21 74
+			</div>
+		</div>
+	</div>
 </footer>
 <?php $this->endBody() ?>
 </body>
