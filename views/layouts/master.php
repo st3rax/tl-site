@@ -51,7 +51,16 @@ AppAsset::register($this);
 			<ul class="menu-block">
 				<li class="menu-item"><a href="#">ГЛАВНАЯ</a></li>
 				<li class="menu-item"><a href="#">О ПРОЕКТЕ</a></li>
-				<li class="menu-item"><a href="#">НАЧАТЬ РАБОТУ</a></li>
+				<li class="menu-item">
+					<div class="dropdown">
+						<a href="#">НАЧАТЬ РАБОТУ</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Обследование</a></li>
+							<li><a href="#">Упражнения</a></li>
+							<li><a href="#">Ученики</a></li>
+						</ul>						
+					</div>
+				</li>
 				<li class="menu-item"><a href="#">ФОРУМ</a></li>
 				<li class="menu-item"><a href="#">О КОМПАНИИ</a></li>
 			</ul>

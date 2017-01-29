@@ -93,7 +93,7 @@ ul.menu-block {
 
 .menu-block li.menu-item{
 	margin: 15px;
-	display: inline;
+	display: inline-block;
 }
 
 .menu-item a {
@@ -188,6 +188,7 @@ footer .header {
 .job-picture {
 	min-width: 120px;
 	height: 83px;
+	text-align: center;
 	display: inline-block;
 }
 
