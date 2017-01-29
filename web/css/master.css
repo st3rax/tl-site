@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
 	width: 100%;
-	height: 300px;
+	height: 250px;
 	background-color: #fff;
 }
 
@@ -119,10 +119,8 @@ footer {
 	width: 100%;
 	height: 200px;
 	padding-top: 20px;
-	bottom: 0;
 	background-color: #3bbab5;
 	text-align: center;
-	position: absolute;
 }
 
 footer .icon {
@@ -180,5 +178,28 @@ footer .header {
 	background-color: #3bbab5;
 }
 
+.doctor-job {	
+	margin-top: 35px;
+	margin-left: 80px;
+	margin-bottom: 35px;
+	display: block;
+}
 
+.job-picture {
+	min-width: 120px;
+	height: 83px;
+	display: inline-block;
+}
+
+.job-describe {
+	max-width: 480px;
+	margin-top: -10px;
+	margin-left: 30px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.doctor-job img {
+	height: inherit;
+}
 /* End PAGES */
