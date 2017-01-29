@@ -2,6 +2,14 @@ html, body {
 	height: 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	color: #3bbab5;
+}
+
+.align-center {
+	text-align: center;
+}
+
 .header {
 	width: 100%;
 	height: 300px;
@@ -149,3 +157,28 @@ footer .header {
 	font-weight: bold;
 	display: inline-block;
 }
+
+/* PAGES */
+.leftside {
+	width: 40%;
+	min-height: 100px;
+	display: inline-block;
+}
+
+.rightside {
+	width: 60%;
+	min-height: 100px;	
+	float: right;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.circle {
+	width: 350px;
+	height: 350px;
+	border-radius: 175px;
+	background-color: #3bbab5;
+}
+
+
+/* End PAGES */
