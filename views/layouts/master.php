@@ -22,6 +22,7 @@ AppAsset::register($this);
 	<title><?= Html::encode($this->title) ?></title>
 	<?php $this->head() ?>
 </head>
+
 <body>
 <?php $this->beginBody() ?>
 <div class="header">
