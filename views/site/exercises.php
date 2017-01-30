@@ -6,33 +6,47 @@ $this->title = 'Говорящие уроки - Упражнения';
 ?>
 <div class="container">
 	<h1>
-		Логопедическая работа
+		Логопедические тренажеры
 	</h1>
-	<div class="doctor-job">
-		<div class="job-picture">
-			<img src="img/research.jpg" alt="">
+	<a href="#">Рекомендованные нашими специалистами</a>
+	<a href="#">В разработке</a>
+	<div class="exercise-wrap">
+		<div class="ex-name">
+			<div class="circle-sm">
+				<div class="wrapper">
+					Карточки
+				</div>
+			</div>
 		</div>
-		<div class="job-describe">
-			<h4>Обследование</h4>
-			Раздел не готов. Приблизительное время появления первой версии - 15.01.2017
+		<div class="about">
+			<div class="caption">
+				Слушаем задания и выбираем карточки
+			</div>
+			<img src="img/Helicopter.png" alt="">
+			<img src="img/plane.png" alt="">
+			<img src="img/ship.png" alt="">
+			<br />
+			<a href="#" class="link-discuss">
+				Замечания и предложения
+			</a>
 		</div>
 	</div>
-	<div class="doctor-job">
-		<div class="job-picture">
-			<img src="img/game.jpg" alt="">
+	<div class="exercise-wrap">
+		<div class="ex-name">
+			<div class="circle-sm">
+				
+				Кубики
+			</div>
 		</div>
-		<div class="job-describe">
-			<h4>Логопедические тренажёры (упражнения)</h4>
-			Мы предоставили примеры тренажёров для апробации. Их уже можно использовать в своей практике, однако, они ещё не идеальны, и мы готовы доработать их по Вашим замечаниям.
-		</div>
-	</div>
-	<div class="doctor-job">
-		<div class="job-picture">
-			<img src="img/maptarget.png" alt="">
-		</div>
-		<div class="job-describe">
-			<h4>Это третья услуга</h4>
-			Расскажите подробнее, о чем идет речь. Что в этом интересного? Поделитесь необходимой информацией и предложите посетителям совершить нужное вам действие. Чтобы отредактировать, кликните здесь > Редактировать.
+		<div class="about">
+			<div class="caption">
+				Составляем слова из кубиков
+			</div>
+			<img src="img/cubes.png" alt="">
+			<br />
+			<a href="#" class="link-discuss">
+				Замечания и предложения
+			</a>
 		</div>
 	</div>
 </div>
